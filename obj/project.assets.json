@@ -1002,11 +1002,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Kuliah SEM 4\\Desain RESTFULL WEB API\\drwa\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "D:\\Kuliah SEM 4\\Desain RESTFULL WEB API\\drwa\\DRWA-2023\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "D:\\Kuliah SEM 4\\Desain RESTFULL WEB API\\drwa\\TodoApi\\TodoApi.csproj",
+      "projectPath": "D:\\Kuliah SEM 4\\Desain RESTFULL WEB API\\drwa\\DRWA-2023\\TodoApi.csproj",
       "packagesPath": "C:\\Users\\RedBorn\\.nuget\\packages\\",
-      "outputPath": "D:\\Kuliah SEM 4\\Desain RESTFULL WEB API\\drwa\\TodoApi\\obj\\",
+      "outputPath": "D:\\Kuliah SEM 4\\Desain RESTFULL WEB API\\drwa\\DRWA-2023\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\RedBorn\\AppData\\Roaming\\NuGet\\NuGet.Config"
