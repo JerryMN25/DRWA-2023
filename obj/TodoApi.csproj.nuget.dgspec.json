@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kuliah SEM 4\\Desain RESTFULL WEB API\\drwa\\DRWA-2023\\TodoApi.csproj": {}
+    "D:\\KULIAH JERRY\\Kuliah SEM 4\\Desain RESTFULL WEB API\\drwa\\DRWA-2023\\TodoApi.csproj": {}
   },
   "projects": {
-    "D:\\Kuliah SEM 4\\Desain RESTFULL WEB API\\drwa\\DRWA-2023\\TodoApi.csproj": {
+    "D:\\KULIAH JERRY\\Kuliah SEM 4\\Desain RESTFULL WEB API\\drwa\\DRWA-2023\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kuliah SEM 4\\Desain RESTFULL WEB API\\drwa\\DRWA-2023\\TodoApi.csproj",
+        "projectUniqueName": "D:\\KULIAH JERRY\\Kuliah SEM 4\\Desain RESTFULL WEB API\\drwa\\DRWA-2023\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "D:\\Kuliah SEM 4\\Desain RESTFULL WEB API\\drwa\\DRWA-2023\\TodoApi.csproj",
-        "packagesPath": "C:\\Users\\RedBorn\\.nuget\\packages\\",
-        "outputPath": "D:\\Kuliah SEM 4\\Desain RESTFULL WEB API\\drwa\\DRWA-2023\\obj\\",
+        "projectPath": "D:\\KULIAH JERRY\\Kuliah SEM 4\\Desain RESTFULL WEB API\\drwa\\DRWA-2023\\TodoApi.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\KULIAH JERRY\\Kuliah SEM 4\\Desain RESTFULL WEB API\\drwa\\DRWA-2023\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RedBorn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,9 +44,23 @@
               "target": "Package",
               "version": "[7.0.3, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -70,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
