@@ -51,3 +51,7 @@ D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi
 D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi\obj\Debug\net7.0\BookStoreApi.pdb
 D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi\obj\Debug\net7.0\BookStoreApi.genruntimeconfig.cache
 D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi\obj\Debug\net7.0\ref\BookStoreApi.dll
+D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi\bin\Debug\net7.0\System.Web.Http.dll
+D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

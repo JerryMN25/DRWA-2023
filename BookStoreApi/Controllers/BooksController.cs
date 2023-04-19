@@ -1,5 +1,7 @@
+
 using BookStoreApi.Models;
 using BookStoreApi.Services;
+using BookStoreApi.Filters;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookStoreApi.Controllers;
@@ -31,6 +33,7 @@ public class BooksController : ControllerBase
     }
 
     [HttpPost]
+    [ValidateModel]
     public async Task<IActionResult> Post(Book newBook)
     {
         await _booksService.CreateAsync(newBook);
