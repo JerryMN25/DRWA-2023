@@ -55,3 +55,10 @@ D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi
 D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi\bin\Debug\net7.0\System.Web.Http.dll
 D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi\bin\Debug\net7.0\Newtonsoft.Json.dll
 D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\KULIAH JERRY\Kuliah SEM 4\Desain RESTFULL WEB API\drwa\DRWA-2023\BookStoreApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

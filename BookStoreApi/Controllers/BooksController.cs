@@ -3,6 +3,7 @@ using BookStoreApi.Models;
 using BookStoreApi.Services;
 using BookStoreApi.Filters;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BookStoreApi.Controllers;
 
@@ -17,10 +18,10 @@ public class BooksController : ControllerBase
 
     private readonly BooksService _booksService;
 
-    public BooksController(BooksService booksService) =>
-        _booksService = booksService;
+    public BooksController(BooksService booksService) => _booksService = booksService;
 
     [HttpGet]
+    [Authorize]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -31,6 +32,7 @@ public class BooksController : ControllerBase
 
 
     [HttpGet("{id:length(24)}")]
+    [Authorize]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -48,11 +50,12 @@ public class BooksController : ControllerBase
     }
 
     [HttpPost]
+    [Authorize]
+    [ValidateModel]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-    [ValidateModel]
     public async Task<IActionResult> Post(Book newBook)
     {
         await _booksService.CreateAsync(newBook);
@@ -61,6 +64,7 @@ public class BooksController : ControllerBase
     }
 
     [HttpPut("{id:length(24)}")]
+    [Authorize]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -82,6 +86,7 @@ public class BooksController : ControllerBase
     }
 
     [HttpDelete("{id:length(24)}")]
+    [Authorize]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
